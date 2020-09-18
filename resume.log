@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.9.7)  17 SEP 2020 22:01
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2020.9.7)  17 SEP 2020 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -818,8 +818,7 @@ Package xtemplate Info: Declaring object type 'tasks' taking 3 argument(s) on
 (xtemplate)             line 426.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/tasks/tasks.cfg)))
-No file resume.aux.
+(/usr/share/texlive/texmf-dist/tex/latex/tasks/tasks.cfg))) (./resume.aux)
 \openout1 = `resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -844,6 +843,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
 LaTeX Font Info:    ... okay on input line 35.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 35.
+
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 35.
 
@@ -941,12 +941,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
 LaTeX Info: Redefining \nameref on input line 35.
+
+(./resume.out) (./resume.out)
 \@outlinefile=\write6
 \openout6 = `resume.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \headertextwidth=\skip87
 \headerphotowidth=\skip88
@@ -1026,20 +1024,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
 (./resume.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
-
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32447 strings out of 481731
- 641341 string characters out of 5935437
- 1079267 words of memory out of 5000000
+ 32453 strings out of 481731
+ 641407 string characters out of 5935437
+ 1079402 words of memory out of 5000000
  48903 multiletter control sequences out of 15000+600000
  535014 words of font info for 98 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
