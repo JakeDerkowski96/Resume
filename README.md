@@ -1,4 +1,4 @@
-# Resume_JakeDerkowski
+# JakeDerkowski96's Resume
 
 Repository of my LaTex resume
 
