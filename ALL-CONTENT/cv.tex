@@ -1,31 +1,38 @@
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
-%------------------------------------------------------------------------------
-\documentclass[11pt, a4paper]{awesome-cv}
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, a4paper]{awesome-cv}
+
 % original margins
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
-% \geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
-\fontdir[fonts/]    % font location
+
+
+% font location
+\fontdir[fonts/]
+
+% boolean, for color 
  \setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
-%------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
+%-------------------------------------------------------------------------------
 \name{Jake}{Derkowski}
-\position{Cybersecurity Analyst{\enskip\cdotp\enskip}Network Engineer}
 \mobile{832-702-9498}
 \email{jakederkowski12@gmail.com}
-% \homepage{https://www.jderkowski.com}
-\homepage{jderkowski.com}
+\homepage{www.jderkowski.com}
 \github{JakeDerkowski96}
 \linkedin{jake-derkowski2020}
 
 %-------------------------------------------------------------------------------
 \begin{document}
 
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[C]
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
@@ -39,19 +46,15 @@
 %-----------------------------------------------------------
 %	CV/RESUME CONTENT
 %-----------------------------------------------------------
-
-\input{content/summary.tex}
-
 \input{content/education.tex}
 
 \input{content/honors.tex}
 
 \input{content/skills.tex}
 
-\input{content/experience.tex}
+\input{content/CV_experience.tex}
 
-\input{content/projects.tex}
-
+\input{content/CV_projects.tex}
 %-----------------------------------------------------------
 
 \end{document}

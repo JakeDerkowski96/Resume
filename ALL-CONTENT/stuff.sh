@@ -2,8 +2,9 @@
 # compile and clean
 
 function compile {
-	xelatex Resume;
-	xelatex CV_JakeDerkowski;
+	xelatex resume;
+    xelatex developer;
+	xelatex cv;
 }
 
 function clean {
@@ -14,4 +15,4 @@ function open { xdg-open $1; }
 
 compile;
 clean;
-open $1;
+# open $1;
