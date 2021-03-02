@@ -68,11 +68,11 @@ check4conversion-tool;
 
 
 
-function resume2text {
-	pdftotext -eol unix Latex/$filePDF $created/$resume$text;
-}
-
-resume2text;
+# function resume2text {
+# 	pdftotext -eol unix Latex/$filePDF $created/$resume$text;
+# }
+#
+# resume2text;
 
 WORD="/usr/bin/abiword"
 function check_pdf2docx {
@@ -84,6 +84,6 @@ function check_pdf2docx {
 
 check_pdf2docx;
 
-function pdf2docx { abiword --to=doc $created/$filePDF; }
+# function pdf2docx { abiword --to=doc $created/$filePDF; }
 
-pdf2docx;
+# pdf2docx;
