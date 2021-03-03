@@ -4,6 +4,10 @@
 # 2. txt
 # 3. docx
 
+
+# This is old version, this will not work if ran from this location, it must be must 
+# be moved to the master directory
+
 # DOES NOT WORK HOW IT IS SUPPOSED TO
 # FIX LATER, by default
 
