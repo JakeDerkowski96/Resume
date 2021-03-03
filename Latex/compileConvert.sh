@@ -5,8 +5,9 @@
 # 3. docx
 
 # DOES NOT WORK HOW IT IS SUPPOSED TO
-# FIX LATER
+# FIX LATER, by default
 
+FILE='resume.tex'
 # PREFIX
 created=`date +"%Y%m%d"`
 # CONTENT
@@ -20,9 +21,9 @@ doc=".docx"
 function name_file { "$created-$1$2"; }
 
 # compile tex file into pdf
-function compile_resume {
+function compile_file {
 	cd Latex;
-	xelatex Resume.tex;
+	xelatex $1;
 	filePDF="$created-$resume$pdf"
 	mv Resume.pdf $filePDF
 	latexmk -c *.tex
@@ -30,7 +31,7 @@ function compile_resume {
 	cd ..;
 }
 
-compile_resume;
+compile_file $FILE;
 
 
 function byDate {
