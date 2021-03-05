@@ -1,22 +1,37 @@
 
 # Network Security Administrator
+
 ## Study Guide
+
 ### V: 3.0
 
 ---
 
 ## Table of Conducts
+
+
 1. [General Theory](#General-Theory)
+
 2. [Network](#Network)
+
 3. [HTTP](#HTTP)
+
 4. [OSI Model](#OSI-Model)
+
 5. [OWASP Top 10](#OWASP-To-10)
+
 6. [Tools](#Tools)
+
 7. [Linux](#Linux)
+
 8. [Windows](#Windows)
+
 9. [Scripting](#Scripting)
+
 10. [Random & Trick Questions](#Random-/-Trick-Questions)
+
 11. [Web Attacks](#Web-Attacks)
+
 
 ---
 
@@ -32,8 +47,10 @@ Separates:
 
 Severity levels:
 
-* Emergency
-* Alert
+
+  * Emergency
+  * Alert
+
 * Critical
 * Error
 * Warning
