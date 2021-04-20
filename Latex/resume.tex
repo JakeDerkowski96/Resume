@@ -3,8 +3,8 @@
 %------------------------------------------------------------------------------
 \documentclass[11pt, a4paper]{awesome-cv}
 % original margins
-\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
-% \geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
+% \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
 \fontdir[fonts/]    % font location
  \setbool{acvSectionColorHighlight}{false}
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -15,43 +15,34 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
 \name{Jake}{Derkowski}
-% \position{Cybersecurity Analyst{\enskip\cdotp\enskip}Network Engineer}
-
-\position{Security Operations Center Analyst}
+\position{Cybersecurity Analyst{\enskip\cdotp\enskip}Security Operations Center Analyst}
 \mobile{832-702-9498}
 \email{jakederkowski12@gmail.com}
 \homepage{jderkowski.com}
 \github{JakeDerkowski96}
 \linkedin{jake-derkowski2020}
-
-%-------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 \begin{document}
-
 \makecvheader[C]
-
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
   {}
   {Jake Derkowski~~~·~~~\today}
   {\thepage}
-
-
 %-----------------------------------------------------------
 %	CV/RESUME CONTENT
 %-----------------------------------------------------------
-\input{content/summary.tex}
+% \input{content/summary.tex}
+
+\input{content/experience.tex}
+
+\input{content/skills.tex}
 
 \input{content/education.tex}
 
 \input{content/honors.tex}
 
-\input{content/skills.tex}
-
-\input{content/experience.tex}
-
 \input{content/projects.tex}
-
 %-----------------------------------------------------------
-
 \end{document}

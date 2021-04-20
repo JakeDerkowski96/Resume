@@ -3,14 +3,6 @@
 %-------------------------------------------------------------------------------
 \ProvidesClass{awesome-cv}[2017/02/05 v1.6.1 Awesome Curriculum Vitae Class]
 \NeedsTeXFormat{LaTeX2e}
-
-
-%-------------------------------------------------------------------------------
-%                Class options
-%
-% (need to be done before the external package loading, for example because
-% we need \paperwidth, \paperheight and \@ptsize to be defined before loading
-% geometry and fancyhdr)
 %-------------------------------------------------------------------------------
 % Options for draft or final
 \DeclareOption{draft}{\setlength\overfullrule{5pt}}
@@ -21,8 +13,6 @@
 }
 \ProcessOptions\relax
 \LoadClass{article}
-
-
 %-------------------------------------------------------------------------------
 %                3rd party packages
 %-------------------------------------------------------------------------------
@@ -70,15 +60,6 @@
   pdfsubject={},
   pdfkeywords={}
 }
-
-%---------------------------------------------
-% i added myself
-\RequirePackage{float}
-\RequirePackage{tasks}
-% \RequirePackage{exsheets}
-% % setup inline skills list
-% \SetupExSheets[Ski]
-
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
 %-------------------------------------------------------------------------------
@@ -91,10 +72,8 @@
 %% Page Layout
 % Configure page margins with geometry
 % \geometry{left=1.5cm, top=1.cm, right=1.5cm, bottom=1.0cm, footskip=.35cm}
-
 %% original:
 \geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
-
 %% Header & Footer
 % Set offset to each header and footer
 \fancyhfoffset{0em}
@@ -104,8 +83,6 @@
 \fancyhf{}
 % Enable if you want to make header or footer using fancyhdr
 \pagestyle{fancy}
-
-
 %-------------------------------------------------------------------------------
 %                Configuration for colors
 %-------------------------------------------------------------------------------
@@ -146,8 +123,6 @@
   \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
   % \ifbool{acvSectionColorHighlight}{{\color{black}#1#2#3}}{#1#2#3}%
 }
-
-
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
@@ -187,11 +162,11 @@
 %-------------------------------------------------------------------------------
 %                SIZE OF FONTS -- FOR ALL STRUCTURES
 %-------------------------------------------------------------------------------
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{40pt}{1em}\headerfont\bfseries\color{text} #1}}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{36pt}{1em}\headerfont\bfseries\color{text} #1}}
 
-\newcommand*{\headerlastnamestyle}[1]{{\fontsize{40pt}{1em}\headerfont\bfseries\color{text} #1}}
+\newcommand*{\headerlastnamestyle}[1]{{\fontsize{36pt}{2em}\headerfont\bfseries\color{text} #1}}
 %~~~~~~~~~~~
-\newcommand*{\headerpositionstyle}[1]{{\fontsize{10pt}{1em}\bodyfont\scshape\color{darktext} #1}}
+\newcommand*{\headerpositionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\color{darktext} #1}}
 \newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1em}\headerfont\itshape\color{lighttext} #1}}
 \newcommand*{\headersocialstyle}[1]{{\fontsize{8pt}{1em}\headerfont\color{text} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\itshape\color{darktext} #1}}
@@ -401,16 +376,16 @@
 \newcommand{\acvHeaderIconSep}{\space}
 \newcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 \newcommand{\acvHeaderAfterSocialSkip}{6mm}
-\newcommand{\acvHeaderAfterQuoteSkip}{5mm}
+\newcommand{\acvHeaderAfterQuoteSkip}{0mm}
 
 % Others
 % ORIGINAL
-% \newcommand{\acvSectionTopSkip}{3mm}
-% \newcommand{\acvSectionContentTopSkip}{2.5mm}
+\newcommand{\acvSectionTopSkip}{3mm}
+\newcommand{\acvSectionContentTopSkip}{2.5mm}
 % END ORIGINAL
 
-\newcommand{\acvSectionTopSkip}{1mm}
-\newcommand{\acvSectionContentTopSkip}{1mm}
+% \newcommand{\acvSectionTopSkip}{1mm}
+% \newcommand{\acvSectionContentTopSkip}{1mm}
 
 %-------------------------------------------------------------------------------
 %                Commands for utilities
