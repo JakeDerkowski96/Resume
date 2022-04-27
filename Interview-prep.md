@@ -20,17 +20,17 @@
 
 5. [OWASP Top 10](#OWASP-To-10)
 
-6. [Tools](#Tools)
+6. [Tools](#tools)
 
-7. [Linux](#Linux)
+7. [Linux](#linux)
 
-8. [Windows](#Windows)
+8. [Windows](#windows)
 
-9. [Scripting](#Scripting)
-
+9. [Scripting](#scripting)
+89i
 10. [Random & Trick Questions](#Random-/-Trick-Questions)
 
-11. [Web Attacks](#Web-Attacks)
+11. [Web Attacks](#web-attacks)
 
 
 ---
