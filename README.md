@@ -10,3 +10,7 @@ Uses bash scripts to automate the organization and version history of each resum
 
 Each section has its own *.tex* file in the *content* directory. To add, remove, or reorder these sections, do so within the *resume.tex* or *cv.tex* files outside of the content directory. These files fornmat and personalize the resume for you.
 
+### Notes to self
+
+- update skills with those recently  developed 
+- update projects with some of the work-related projects
