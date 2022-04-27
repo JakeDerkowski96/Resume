@@ -10,7 +10,7 @@
 ## Table of Conducts
 
 
-1. [General Theory](General-Theory)
+1. [General Theory](#general-theory)
 
 2. [Network](#Network)
 
