@@ -14,3 +14,5 @@ Each section has its own *.tex* file in the *content* directory. To add, remove,
 
 - update skills with those recently  developed 
 - update projects with some of the work-related projects
+
+**OUTDATED**
